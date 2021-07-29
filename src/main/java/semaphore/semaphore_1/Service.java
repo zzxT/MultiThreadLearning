@@ -1,4 +1,4 @@
-package SemaphorePractice.SemaphoreTest1;
+package semaphore.semaphore_1;
 
 import java.util.concurrent.Semaphore;
 
@@ -30,7 +30,7 @@ public class Service {
 
         threadA.start();
         threadB.start();
-        threadC.start();
+        threadC.start();;
 
     }
 }
